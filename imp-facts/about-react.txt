@@ -2,4 +2,6 @@
 	Thus it ensures that you can never inject anything that’s not explicitly written in your application. 
 	Everything is converted to a string before being rendered. This helps prevent XSS (cross-site-scripting) attacks.
 
-2)
+2) components made up of elements
+
+react elements are immutable i.e. it can't modified after it is created.
